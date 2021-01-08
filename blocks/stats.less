@@ -1,0 +1,53 @@
+// main: ../style.less
+
+#brown {
+    background-color: #2f231e;
+}
+
+.stats {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.stats__item {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    color: white;
+    text-align: center;
+    
+    h1 {
+        font-size: 4rem;
+        font-family: "Myriad Pro", sans-serif;
+        font-weight: lighter;
+        margin-top: 30px;
+    }
+    
+    p {
+        margin-top: 20px;
+        text-transform: uppercase;
+    }
+    
+    p:after {
+        display: block;
+        content: "";
+        margin: 35px auto 0;
+        width: 35%;
+        height: 2px;
+        background-color: white;
+        left: 50%;
+        bottom: 0;
+    }
+}

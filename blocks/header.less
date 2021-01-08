@@ -1,0 +1,80 @@
+// main: ../style.less
+
+header {
+    background: url('img/bg.png') no-repeat top center / cover;
+    height: 100vh;
+}
+
+.heading {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-top: 60px;
+    
+    img {
+        height: 100%;
+    }
+}
+
+.logo {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    
+    font-size: 2.4rem;
+    color: white;
+}
+
+.nav a {
+    color: white;
+    padding: 0px 15px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: @brown;
+}
+
+.header__icons img {
+    margin-left: 30px;
+}
+
+.intro {
+    margin-top: 300px;
+    text-align: center;
+    color: white;
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 3.7rem;
+        margin-top: 40px;
+    }
+    
+    h3 {
+        font-size: 1.14rem;
+        width: 50%;
+        margin: 30px auto 50px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+        border: 1px solid @brown;
+        padding: 20px 40px;
+        background: @brown;
+        text-transform: uppercase;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,64 @@
+// main: ../style.less
+
+.posts__text {
+    margin-top: 90px;
+    text-align: center;
+    color: @black;
+    
+    h1 {
+        font-size: @fTitle;
+        margin-bottom: 30px;
+    }
+    
+    p {
+        width: 50%;
+        margin: 0 auto 30px;
+    }
+}
+
+.posts__photos {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.posts__photos__item {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    
+    
+    color: @brown;
+    width: 30%;
+    
+    img {
+        height: 220px;
+    }
+    
+    .posts__photos__item__text {
+        background-color: @grey-bg;
+        padding-left: 30px;
+        
+        h1 {
+            font-size: @f22;
+            font-weight: normal;
+            margin-top: 35px;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            margin-bottom: 30px;
+        }
+
+        a {
+            text-decoration: none;
+            color: @brown;
+        }
+    }
+}

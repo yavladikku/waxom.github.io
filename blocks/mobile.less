@@ -1,0 +1,43 @@
+// main: ../style.less
+
+.mobile {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 80px;
+}
+
+.mobile__text {
+    color: @black;
+    padding-top: 120px;
+    width: 50%;
+    
+    h1 {
+        font-size: @fTitle;
+    }
+    
+    p {
+        margin: 40px 0;
+        line-height: 2rem;
+    }
+    
+    ul li {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        align-items: center;
+        
+        list-style: none;
+        margin-bottom: 20px;
+        
+        img {
+            margin-right: 30px;
+        }
+    }
+}

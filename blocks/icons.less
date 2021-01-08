@@ -1,0 +1,57 @@
+// main: ../style.less
+
+.icons {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.icons__item {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    color: @black;
+    text-align: center;
+    width: 22%;
+    
+    img {
+        height: 48px;
+        margin: 0;
+    }
+    
+    h1 {
+        font-size: @f22;
+        margin-top: 40px;
+    }
+    
+    &:hover {
+        color: @brown;
+    }
+    
+    p {
+        margin-top: 30px;
+        color: @black;
+    }
+    
+    p:after {
+        display: block;
+        content: "";
+        margin: 35px auto 0;
+        width: 35%;
+        height: 2px;
+        background-color: @black;
+        left: 50%;
+        bottom: 0;
+    }
+}
